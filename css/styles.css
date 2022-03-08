@@ -154,23 +154,23 @@ nav {
   z-index: 99;
 }
 
-.logo {
+.logo-about {
   width: 92px;
   height: 42px;
   border: 2px solid black;
   color: black;
   font-family: GillSans;
 }
-.logo p {
+.logo-about p {
   margin-top: 23px;
 }
 
-.links a {
+.links-about a {
   color: #000000;
   text-decoration: none;
   font-family: GillSans;
 }
-.links span {
+.links-about span {
   color: #000000;
   margin: 0 20px;
 }
