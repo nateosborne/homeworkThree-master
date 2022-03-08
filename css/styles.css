@@ -92,6 +92,11 @@ p {
     max-width: 500px;
   }
 }
+#app {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
 nav {
   max-width: 980px;
   height: 85px;
@@ -128,6 +133,45 @@ nav {
 }
 .links span {
   color: #ffffff;
+  margin: 0 20px;
+}
+
+.about-nav {
+  max-width: 980px;
+  height: 85px;
+  margin: 0 auto;
+  border-bottom: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+
+.logo {
+  width: 92px;
+  height: 42px;
+  border: 2px solid black;
+  color: black;
+  font-family: GillSans;
+}
+.logo p {
+  margin-top: 23px;
+}
+
+.links a {
+  color: #000000;
+  text-decoration: none;
+  font-family: GillSans;
+}
+.links span {
+  color: #000000;
   margin: 0 20px;
 }
 
@@ -591,4 +635,66 @@ nav {
 .footer .footer-container .icons {
   color: white;
   font-size: 20px;
+}
+
+.about {
+  margin-top: 110px;
+  margin-bottom: 180px;
+}
+.about .about-header h1 {
+  font-family: ProximaNovaCondensed;
+  margin-bottom: 2px;
+  font-size: 60px;
+}
+.about .about-header .rect {
+  width: 171px;
+  height: 3px;
+  background-color: black;
+}
+.about .about-header p {
+  font-size: 16px;
+  margin-top: 36px;
+  font-family: GillSans;
+}
+.about .about-client-quotes {
+  margin-top: 107px;
+  margin-bottom: 179px;
+}
+.about .about-client-quotes .client-quote-title {
+  font-size: 60px;
+  font-family: ProximaNovaCondensed;
+}
+.about .about-client-quotes .rect {
+  width: 171px;
+  height: 3px;
+  background-color: black;
+}
+.about .about-client-quotes .client-box {
+  max-width: 722px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-bottom: 37px;
+  margin-top: 36.5px;
+}
+.about .about-client-quotes .client-box .client-image {
+  width: 260px;
+  height: 150px;
+  overflow: hidden;
+  margin-right: 21px;
+}
+.about .about-client-quotes .client-box .client-image img {
+  width: 100%;
+}
+.about .about-client-quotes .client-box .client-quote {
+  max-width: 440px;
+  margin-bottom: 20px;
+  font-family: GillSans;
+}
+.about .about-client-quotes .client-box .client-name {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-family: GillSans;
 }

@@ -1,0 +1,70 @@
+.about {
+  margin-top: 110px;
+  margin-bottom: 180px;
+
+  .about-header {
+    h1 {
+      font-family: $proxima-nova;
+      margin-bottom: 2px;
+      font-size: 60px;
+    }
+    .rect {
+      width: 171px;
+      height: 3px;
+      background-color: black;
+    }
+    p {
+      font-size: 16px;
+      margin-top: 36px;
+      font-family: $gill-sans;
+    }
+  }
+
+  .about-client-quotes {
+    margin-top: 107px;
+    margin-bottom: 179px;
+
+    .client-quote-title {
+      font-size: 60px;
+      font-family: $proxima-nova;
+    }
+
+    .rect {
+      width: 171px;
+      height: 3px;
+      background-color: black;
+    }
+
+    .client-box {
+      max-width: 722px;
+      display: flex;
+      position: relative;
+      margin-bottom: 37px;
+      margin-top: 36.5px;
+
+      .client-image {
+        width: 260px;
+        height: 150px;
+        overflow: hidden;
+        margin-right: 21px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .client-quote {
+        max-width: 440px;
+        margin-bottom: 20px;
+        font-family: $gill-sans;
+      }
+
+      .client-name {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        font-family: $gill-sans;
+      }
+    }
+  }
+}
