@@ -1,0 +1,91 @@
+.tour1-hero {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+  .tour1-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/tour/tour-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 413px;
+    width: $site-width;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .tour-h1 {
+      font-size: 60px;
+      font-family: $proxima-nova;
+      color: white;
+    }
+  }
+}
+
+.tour-image-container {
+  display: flex;
+  justify-content: center;
+
+  .tour-images {
+    width: $site-width;
+    height: 347px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+    .tour-image-1 {
+      width: 298px;
+      height: 347px;
+      background-image: url(../images/tour/tour-israel/israel-tour-01.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .tour-image-2 {
+      width: 298px;
+      height: 347px;
+      background-image: url(../images/tour/tour-israel/israel-tour-02.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .tour-image-3 {
+      width: 298px;
+      height: 347px;
+      background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+.tour-text-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  .tour-text-container {
+    width: $site-width;
+    height: 776px;
+    .tour-text {
+      .tour-text-h1-1 {
+        font-size: 60px;
+        font-family: $proxima-nova;
+      }
+
+      .underline {
+        height: 2px;
+        width: 171px;
+        background-color: black;
+        margin-top: -10px;
+      }
+
+      p {
+        margin-top: 36px;
+        margin-bottom: 70px;
+        font-size: 16px;
+        font-family: $gill-sans;
+      }
+    }
+  }
+}

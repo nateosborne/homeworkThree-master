@@ -4,10 +4,11 @@
   margin-top: 50px;
 
   .tour-img {
-    background-image: url(../images/tour/tours-header.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/tour/tours-header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: -210px;
+    background-position: center;
     height: 200px;
     width: $site-width;
     display: flex;
@@ -77,10 +78,10 @@
         justify-content: center;
         border-radius: 100px;
 
-        p {
+        a {
           color: white;
           font-family: $gill-sans;
-          margin-top: 15px;
+          text-decoration: none;
         }
       }
     }
@@ -127,10 +128,10 @@
         justify-content: center;
         border-radius: 100px;
 
-        p {
+        a {
           color: white;
           font-family: $gill-sans;
-          margin-top: 15px;
+          text-decoration: none;
         }
       }
     }
@@ -176,10 +177,10 @@
         justify-content: center;
         border-radius: 100px;
 
-        p {
+        a {
           color: white;
           font-family: $gill-sans;
-          margin-top: 15px;
+          text-decoration: none;
         }
       }
     }
@@ -226,10 +227,10 @@
         justify-content: center;
         border-radius: 100px;
 
-        p {
+        a {
           color: white;
           font-family: $gill-sans;
-          margin-top: 15px;
+          text-decoration: none;
         }
       }
     }
@@ -276,10 +277,10 @@
         justify-content: center;
         border-radius: 100px;
 
-        p {
+        a {
           color: white;
           font-family: $gill-sans;
-          margin-top: 15px;
+          text-decoration: none;
         }
       }
     }
@@ -326,10 +327,10 @@
         justify-content: center;
         border-radius: 100px;
 
-        p {
+        a {
           color: white;
           font-family: $gill-sans;
-          margin-top: 15px;
+          text-decoration: none;
         }
       }
     }
@@ -376,10 +377,10 @@
         justify-content: center;
         border-radius: 100px;
 
-        p {
+        a {
           color: white;
           font-family: $gill-sans;
-          margin-top: 15px;
+          text-decoration: none;
         }
       }
     }
@@ -426,10 +427,10 @@
         justify-content: center;
         border-radius: 100px;
 
-        p {
+        a {
           color: white;
           font-family: $gill-sans;
-          margin-top: 15px;
+          text-decoration: none;
         }
       }
     }
@@ -476,10 +477,10 @@
         justify-content: center;
         border-radius: 100px;
 
-        p {
+        a {
           color: white;
           font-family: $gill-sans;
-          margin-top: 15px;
+          text-decoration: none;
         }
       }
     }
