@@ -136,7 +136,7 @@ nav {
   margin: 0 20px;
 }
 
-.about-nav {
+.black-nav {
   max-width: 980px;
   height: 85px;
   margin: 0 auto;
@@ -154,23 +154,23 @@ nav {
   z-index: 99;
 }
 
-.logo-about {
+.logo-black {
   width: 92px;
   height: 42px;
   border: 2px solid black;
   color: black;
   font-family: GillSans;
 }
-.logo-about p {
+.logo-black p {
   margin-top: 23px;
 }
 
-.links-about a {
+.links-black a {
   color: #000000;
   text-decoration: none;
   font-family: GillSans;
 }
-.links-about span {
+.links-black span {
   color: #000000;
   margin: 0 20px;
 }
@@ -697,4 +697,567 @@ nav {
   bottom: 0;
   right: 0;
   font-family: GillSans;
+}
+
+.tour-hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+.tour-hero .tour-img {
+  background-image: url(../images/tour/tours-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -210px;
+  height: 200px;
+  width: 980px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.tour-hero .tour-img .tour-h1 {
+  font-size: 60px;
+  font-family: ProximaNovaCondensed;
+  color: white;
+}
+
+.form-content {
+  max-width: 818px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+.form-content .packages-container-tours {
+  width: 818px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+}
+.form-content .packages-container-tours .package1 {
+  width: 235px;
+  height: 300px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.form-content .packages-container-tours .package1 .package-header {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.form-content .packages-container-tours .package1 .package-header p {
+  color: white;
+  font-family: ProximaNovaCondensed;
+  font-size: 60px;
+}
+.form-content .packages-container-tours .package1 .money {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.form-content .packages-container-tours .package1 .money p {
+  color: white;
+  font-family: ProximaNovaCondensed;
+  font-size: 30px;
+}
+.form-content .packages-container-tours .package1 .learn-more {
+  margin: 0 auto;
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 100px;
+}
+.form-content .packages-container-tours .package1 .learn-more p {
+  color: white;
+  font-family: GillSans;
+  margin-top: 15px;
+}
+.form-content .packages-container-tours .package2 {
+  width: 235px;
+  height: 300px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-02.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.form-content .packages-container-tours .package2 .package-header {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.form-content .packages-container-tours .package2 .package-header p {
+  color: white;
+  font-family: ProximaNovaCondensed;
+  font-size: 60px;
+}
+.form-content .packages-container-tours .package2 .money {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.form-content .packages-container-tours .package2 .money p {
+  color: white;
+  font-family: ProximaNovaCondensed;
+  font-size: 30px;
+}
+.form-content .packages-container-tours .package2 .learn-more {
+  margin: 0 auto;
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 100px;
+}
+.form-content .packages-container-tours .package2 .learn-more p {
+  color: white;
+  font-family: GillSans;
+  margin-top: 15px;
+}
+.form-content .packages-container-tours .package3 {
+  width: 235px;
+  height: 300px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-03.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.form-content .packages-container-tours .package3 .package-header {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.form-content .packages-container-tours .package3 .package-header p {
+  color: white;
+  font-family: ProximaNovaCondensed;
+  font-size: 60px;
+}
+.form-content .packages-container-tours .package3 .money {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.form-content .packages-container-tours .package3 .money p {
+  color: white;
+  font-family: ProximaNovaCondensed;
+  font-size: 30px;
+}
+.form-content .packages-container-tours .package3 .learn-more {
+  margin: 0 auto;
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 100px;
+}
+.form-content .packages-container-tours .package3 .learn-more p {
+  color: white;
+  font-family: GillSans;
+  margin-top: 15px;
+}
+.form-content .packages-container-tours .package4 {
+  width: 235px;
+  height: 300px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-04.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.form-content .packages-container-tours .package4 .package-header {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.form-content .packages-container-tours .package4 .package-header p {
+  color: white;
+  font-family: ProximaNovaCondensed;
+  font-size: 50px;
+}
+.form-content .packages-container-tours .package4 .money {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.form-content .packages-container-tours .package4 .money p {
+  color: white;
+  font-family: ProximaNovaCondensed;
+  font-size: 30px;
+}
+.form-content .packages-container-tours .package4 .learn-more {
+  margin: 0 auto;
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 100px;
+}
+.form-content .packages-container-tours .package4 .learn-more p {
+  color: white;
+  font-family: GillSans;
+  margin-top: 15px;
+}
+.form-content .packages-container-tours .package5 {
+  width: 235px;
+  height: 300px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-05.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.form-content .packages-container-tours .package5 .package-header {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.form-content .packages-container-tours .package5 .package-header p {
+  color: white;
+  font-family: ProximaNovaCondensed;
+  font-size: 60px;
+}
+.form-content .packages-container-tours .package5 .money {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.form-content .packages-container-tours .package5 .money p {
+  color: white;
+  font-family: ProximaNovaCondensed;
+  font-size: 30px;
+}
+.form-content .packages-container-tours .package5 .learn-more {
+  margin: 0 auto;
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 100px;
+}
+.form-content .packages-container-tours .package5 .learn-more p {
+  color: white;
+  font-family: GillSans;
+  margin-top: 15px;
+}
+.form-content .packages-container-tours .package6 {
+  width: 235px;
+  height: 300px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-06.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.form-content .packages-container-tours .package6 .package-header {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.form-content .packages-container-tours .package6 .package-header p {
+  color: white;
+  font-family: ProximaNovaCondensed;
+  font-size: 60px;
+}
+.form-content .packages-container-tours .package6 .money {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.form-content .packages-container-tours .package6 .money p {
+  color: white;
+  font-family: ProximaNovaCondensed;
+  font-size: 30px;
+}
+.form-content .packages-container-tours .package6 .learn-more {
+  margin: 0 auto;
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 100px;
+}
+.form-content .packages-container-tours .package6 .learn-more p {
+  color: white;
+  font-family: GillSans;
+  margin-top: 15px;
+}
+.form-content .packages-container-tours .package7 {
+  width: 235px;
+  height: 300px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-07.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.form-content .packages-container-tours .package7 .package-header {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.form-content .packages-container-tours .package7 .package-header p {
+  color: white;
+  font-family: ProximaNovaCondensed;
+  font-size: 60px;
+}
+.form-content .packages-container-tours .package7 .money {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.form-content .packages-container-tours .package7 .money p {
+  color: white;
+  font-family: ProximaNovaCondensed;
+  font-size: 30px;
+}
+.form-content .packages-container-tours .package7 .learn-more {
+  margin: 0 auto;
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 100px;
+}
+.form-content .packages-container-tours .package7 .learn-more p {
+  color: white;
+  font-family: GillSans;
+  margin-top: 15px;
+}
+.form-content .packages-container-tours .package8 {
+  width: 235px;
+  height: 300px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-08.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.form-content .packages-container-tours .package8 .package-header {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.form-content .packages-container-tours .package8 .package-header p {
+  color: white;
+  font-family: ProximaNovaCondensed;
+  font-size: 60px;
+}
+.form-content .packages-container-tours .package8 .money {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.form-content .packages-container-tours .package8 .money p {
+  color: white;
+  font-family: ProximaNovaCondensed;
+  font-size: 30px;
+}
+.form-content .packages-container-tours .package8 .learn-more {
+  margin: 0 auto;
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 100px;
+}
+.form-content .packages-container-tours .package8 .learn-more p {
+  color: white;
+  font-family: GillSans;
+  margin-top: 15px;
+}
+.form-content .packages-container-tours .package9 {
+  width: 235px;
+  height: 300px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour/tour-09.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.form-content .packages-container-tours .package9 .package-header {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.form-content .packages-container-tours .package9 .package-header p {
+  color: white;
+  font-family: ProximaNovaCondensed;
+  font-size: 60px;
+}
+.form-content .packages-container-tours .package9 .money {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.form-content .packages-container-tours .package9 .money p {
+  color: white;
+  font-family: ProximaNovaCondensed;
+  font-size: 30px;
+}
+.form-content .packages-container-tours .package9 .learn-more {
+  margin: 0 auto;
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 100px;
+}
+.form-content .packages-container-tours .package9 .learn-more p {
+  color: white;
+  font-family: GillSans;
+  margin-top: 15px;
 }

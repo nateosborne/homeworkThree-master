@@ -35,7 +35,7 @@ nav {
   }
 }
 
-.about-nav {
+.black-nav {
   max-width: $site-width;
   height: 85px;
   margin: 0 auto;
@@ -47,7 +47,7 @@ nav {
   z-index: 99;
 }
 
-.logo-about {
+.logo-black {
   width: 92px;
   height: 42px;
   border: 2px solid black;
@@ -59,7 +59,7 @@ nav {
   }
 }
 
-.links-about {
+.links-black {
   a {
     color: $site-black;
     text-decoration: none;
